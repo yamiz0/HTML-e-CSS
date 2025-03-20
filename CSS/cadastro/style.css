@@ -10,6 +10,10 @@ body{
     display: flex;
 }
 
+.index2{
+    flex-direction: row-reverse;
+}
+
 .container{
     position: relative;
     padding: 100px;
@@ -46,7 +50,6 @@ button{
 }
 
 button:hover{
-    padding: 15px;
     background-color: black;
 }
 
@@ -54,5 +57,21 @@ button:hover{
     border-radius: 5px;
     border: none;
     padding: 5px;
+}
+
+#login{
+    padding: 10px;
+    width: 300px;
+}
+
+#remember{
+    margin-right: 5px;
+    
+}
+.remember{
+    font-size: 15px;
+    align-self: first baseline;
+    margin-left: 10px;
+    color: rgb(134, 134, 134);
 }
 
