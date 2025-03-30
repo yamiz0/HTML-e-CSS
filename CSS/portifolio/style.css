@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+    background-image: url(imagens/background.jpg);
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .interface .yami{
+    color: rgb(87, 28, 7);
+    font-size: 20px;
+}
+
+header > .interface strong{
+    color: rgb(87, 28, 7)
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20 px;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header ul li button{
+    background: none;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: rgb(87, 28, 7);
+    color: rgb(87, 28, 7);
+    padding: 5px;
+}
+
+header ul li button:hover{
+    padding: 6px;
+}
+
+section > .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px;
+    margin-top: 100px;
+}
+
+section > .content img{
+    border-radius: 100px;
+}
+
+section > .content h1{
+    font-size: 50px;
+    color: rgb(87, 28, 7);
+}
+
+section > .content p{
+    font-size: 25px;
+    color: white;
+}
+
+footer p{
+    position: relative;
+    top: 250px;
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+}
