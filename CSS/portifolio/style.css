@@ -8,39 +8,44 @@ body{
     font-family: serif;
     background-image: url(imagens/background.jpg);
 }
+.pagina {
+    width: auto;
+    height: 100vh;
+    scroll-snap-align: start;
+}
 
-header{
+#home header{
     padding: 40px 4%;
 }
 
-header > .interface{
+#home  header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header > .interface .yami{
+#home  header > .interface .yami{
     color: rgb(87, 28, 7);
     font-size: 20px;
 }
 
-header > .interface strong{
+#home  header > .interface strong{
     color: rgb(87, 28, 7)
 }
 
-header a{
+#home  header a{
     color: white;
     text-decoration: none;
     font-size: 20 px;
 }
 
-header ul li{
+#home  header ul li{
     list-style-type: none;
     display: inline-block;
     padding: 0 10px;
 }
 
-header ul li button{
+#home  header ul li button{
     background: none;
     border: solid 2px;
     border-radius: 5px;
@@ -49,7 +54,7 @@ header ul li button{
     padding: 5px;
 }
 
-header ul li button:hover{
+#home header ul li button:hover{
     padding: 6px;
 }
 
@@ -81,4 +86,69 @@ footer p{
     font-size: 15px;
     color: white;
     margin-left: 10px;
+}
+
+#about-me{
+    background-image: url(imagens/background2.jpg);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#about-me .logo img{
+    margin-left: 200px;
+    border: solid 3px;
+    border-color: rgb(87, 28, 7);
+}
+
+#about-me header{
+    padding: 50px 2% 15px;
+}
+
+.content-about{
+    margin-left: 50px;
+}
+
+.about h1{
+    font-size: 35px;
+    color: rgb(87, 28, 7);
+}
+
+.about p{
+    font-size: 15px;
+    color: rgb(53, 17, 3);
+}
+
+.line{
+    border: solid 2px;
+    border-radius: 5px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.content-about{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+.content-about ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.content-about article p{
+    color: rgb(53, 17, 3);
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.container{
+    border: solid 1px;
+    border-radius: 2px;
+    border-color: rgb(87, 28, 7);
+    padding: 10px;
+    margin-left: 10px;
+    color: rgb(87, 28, 7);
 }
